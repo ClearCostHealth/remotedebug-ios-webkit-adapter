@@ -8,6 +8,7 @@
   "scripts": {
     "start": "gulp build && node out/index.js",
     "build": "gulp build",
+    "debug": "start chrome http://localhost:9000 & remotedebug_ios_webkit_adapter --port 9000",
     "prepublish": "gulp build",
     "watch": "gulp watch",
     "test": "gulp test",
